@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Akash krishna</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <style></style>
+  </head>
+  <body>
+    <nav class="bg-gray-900 text-white p-4 fixed w-full z-10 top-0 shadow-md">
+      <div
+        class="container mx-auto flex flex-wrap justify-between items-center"
+      >
+        <div class="text-xl font-bold">
+          <a href="#home" class="hover:underline">My Portfolio</a>
+        </div>
+        <button class="lg:hidden" onclick="toggleMenu()">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul
+          id="menu"
+          class="hidden lg:flex lg:space-x-4 w-full lg:w-auto mt-4 lg:mt-0"
+        >
+          <li>
+            <a href="#home" class="block py-2 lg:inline hover:underline"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="block py-2 lg:inline hover:underline"
+              >About Me</a
+            >
+          </li>
+          <li>
+            <a href="#skills" class="block py-2 lg:inline hover:underline"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="block py-2 lg:inline hover:underline"
+              >Projects</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section
+      id="home"
+      class="h-screen flex items-center justify-center text-center bg-gray-900 text-white"
+    >
+      <div>
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-200">
+          Hello, I'm AKASH KRISHNA M.
+        </h1>
+        <p class="mt-4 text-xl md:text-3xl text-gray-300">
+          I build your desired Web App and Android App
+        </p>
+        <p class="mt-2 text-lg md:text-xl max-w-xl mx-auto text-gray-300">
+          MERN STACK DEVELOPER
+        </p>
+        <p class="mt-2 text-lg md:text-xl max-w-xl mx-auto text-gray-300">
+          FLUTTER DEVELOPER
+        </p>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section
+      id="about"
+      class="min-h-screen flex items-center justify-center text-center bg-gray-900 text-white py-16"
+    >
+      <div
+        class="max-w-4xl mx-auto px-4 flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4"
+      >
+        <div class="text-left w-full md:w-2/3">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-200">About Me</h2>
+          <p class="mt-4 text-lg md:text-xl text-gray-300">
+            I am currently pursuing a BTech in Information Technology at CUSAT,
+            following my diploma. I excel in developing MERN and Flutter
+            applications, and I am adept at creating user-friendly UI interfaces
+            with full backend integration.
+          </p>
+          <p class="mt-2 text-lg md:text-xl text-gray-300">
+            My enthusiasm for learning new technologies drives me to continually
+            expand my skill set and stay updated with the latest
+            industry trends.
+          </p>
+          <p class="mt-2 text-lg md:text-xl text-gray-300">
+            Additionally, I am actively involved in community service and
+            professional networks, demonstrating my commitment to fostering a
+            collaborative and innovative environment.
+          </p>
+        </div>
+        <img
+          src="images/unnamed.jpg"
+          alt="AKASH KRISHNA M"
+          class="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover"
+        />
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section
+      id="skills"
+      class="min-h-screen flex flex-col items-center justify-center text-center bg-gray-900 text-white py-16"
+    >
+      <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gray-200">
+        Tech Stacks
+      </h2>
+      <div
+        class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6"
+      >
+        <div class="glass-effect">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png"
+            alt="Dart"
+          />
+          <span>Dart</span>
+        </div>
+        <div class="glass-effect">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png"
+            alt="Flutter"
+          />
+          <span>Flutter</span>
+        </div>
+        <div class="glass-effect">
+          <img
+            src="https://ctatus-prod.s3.eu-west-2.amazonaws.com/d1x892rl7n8nv9ufz26zbz8rsucq"
+            alt="Firebase"
+          />
+          <span>Firebase</span>
+        </div>
+        <div class="glass-effect">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+            alt="GitHub"
+          />
+          <span>GitHub</span>
+        </div>
+        <div class="glass-effect">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+            alt="Java"
+          />
+          <span>Java</span>
+        </div>
+        <div class="glass-effect">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ZYtHv2OLXmthRPbkmENZRXuqBVDwlsrZ1A&s"
+            alt="MongoDb"
+          />
+          <span>MongoDb</span>
+        </div>
+        <div class="glass-effect">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg"
+            alt="MySQL"
+          />
+          <span>MySQL</span>
+        </div>
+        <div class="glass-effect">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+            alt="Node.js"
+          />
+          <span>Node.js</span>
+        </div>
+        <div class="glass-effect">
+          <img
+            src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"
+            alt="Express.js"
+          />
+          <span>Express.js</span>
+        </div>
+        <div class="glass-effect">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            alt="JavaScript"
+          />
+          <span>JavaScript</span>
+        </div>
+        <div class="glass-effect">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+            alt="React"
+          />
+          <span>React</span>
+        </div>
+        <div class="glass-effect">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+            alt="Bootstrap"
+          />
+          <span>Bootstrap</span>
+        </div>
+
+        <div class="glass-effect">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s"
+            alt="Tailwind CSS"
+          />
+          <span>Tailwind CSS </span>
+        </div>
+
+        <div class="glass-effect">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM5Ft21sEbjJhRHN1DN0aEadmzMqhvV8gLeA&s"
+            alt="C++"
+          />
+          <span>C++ </span>
+        </div>
+
+        <div class="glass-effect">
+          <img
+            src="data:image/png;base64,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"
+            alt="PostgreSQL"
+          />
+          <span>PostgreSQL </span>
+        </div>
+
+        <div class="glass-effect">
+            <img
+              src="https://avatars.githubusercontent.com/u/18133?s=200&v=4"
+              
+              alt="Git"
+            />
+            <span>Git </span>
+          </div>
+      </div>
+      
+    </section>
+
+    <section
+      id="projects"
+      class="flex flex-col items-center justify-center text-center bg-gray-900 text-white py-16"
+    >
+      <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gray-200">
+        Projects
+      </h2>
+      <div class="section w-full max-w-4xl px-4">
+        <!-- Your project cards -->
+
+        <div class="section">
+            <div class="card">
+                <div class="images">
+                  <img
+                    src="https://www.betterup.com/hubfs/A-young-happy-male-pitching-an-idea-in-front-of-a-teamhow-to-pitch-ideas.jpg"
+                    alt="App Screenshot"
+                  />
+                </div>
+                <div class="content">
+                  <h2>Idea Pitching</h2>
+                  <p>
+                   Where student can send thier innovative ideas for pitching.
+                   And mentors can validate their ideas through this platform and also suggest updations.
+                   Student can find and get funds for their idea.
+                  </p>
+                  <div class="buttons">
+                    <a
+                      href="https://github.com/Akaszz2001/miniproject-ideapitching"
+                      target="_blank"
+                      class="text-blue-500 hover:text-blue-700 mr-4"
+                    >
+                      <i class="fab fa-github"></i> </a
+                    ><a
+                      href="https://your-live-project.com"
+                      target="_blank"
+                      class="text-blue-500 hover:text-blue-700"
+                    >
+                      <i class="fas fa-external-link-alt"></i> Live view
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+          <div class="card">
+            <div class="images">
+              <img
+                src="./images/background-images.jpg"
+                alt="App Screenshot"
+              />
+            </div>
+            <div class="content">
+              <h2>IRDB</h2>
+              <p>
+               Movie and book review website, where users can give their review of movies and books.
+               And also users can read others reviews about books and movies.
+              </p>
+              <div class="buttons">
+                <a
+                  href="https://github.com/Akaszz2001/IRDB-college-project"
+                  target="_blank"
+                  class="text-blue-500 hover:text-blue-700 mr-4"
+                >
+                  <i class="fab fa-github"></i> </a
+                ><a
+                  href="https://your-live-project.com"
+                  target="_blank"
+                  class="text-blue-500 hover:text-blue-700"
+                >
+                  <i class="fas fa-external-link-alt"></i> Live view
+                </a>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="card">
+            <div class="images">
+              <img
+                src="images/docApp.jpg"
+                alt="App Screenshot"
+              />
+            </div>
+            <div class="content">
+              <h2>Doc App</h2>
+              <p>
+              This is a FLutter based Android app for book appointments of availble doctors by selecting available time slots and date.
+                And also doctor can  Accept or decline patients appointments.</p>
+              <div class="buttons">
+                <a
+                  href="https://github.com/Akaszz2001/docApp"
+                  target="_blank"
+                  class="text-blue-500 hover:text-blue-700 mr-4"
+                >
+                  <i class="fab fa-github"></i> </a
+                ><a
+                  href="https://your-live-project.com"
+                  target="_blank"
+                  class="text-blue-500 hover:text-blue-700"
+                >
+                  <i class="fas fa-external-link-alt"></i> Live view
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4 mt-8">
+      <div class="flex flex-col items-center">
+        <p class="mb-2">Contact Me</p>
+        <div class="flex space-x-4 mb-4">
+          <a
+            href="https://github.com/Akaszz2001"
+            target="_blank"
+            class="text-gray-300 hover:text-gray-500"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/akash-krishna-a54147229/"
+            target="_blank"
+            class="text-gray-300 hover:text-gray-500"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="mailto:akashgangan2001@gmail.com"
+            class="text-gray-300 hover:text-gray-500"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <p class="text-center text-gray-300">
+          Developed and maintained by Akash krishna | 2024
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("menu");
+      menu.classList.toggle("hidden");
+    }
+  </script>
+</html>

@@ -1,0 +1,214 @@
+body {
+    background-color: #111827; /* Dark color theme */
+    color: #E5E7EB; /* Light text color */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.glass-effect {
+    background-color: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    padding: 15px;
+}
+
+.glass-effect img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.glass-effect:hover {
+    transform: scale(1.1); /* Enlarge on hover */
+}
+
+.glass-effect span {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.glass-effect:hover span {
+    opacity: 1;
+}
+
+.project-card {
+    background-color: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    max-width: 100%;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    margin-top: 15px;
+}
+
+.project-card p {
+    margin-top: 10px;
+}
+
+.project-links {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.project-links a {
+    color: #E5E7EB;
+    transition: color 0.2s ease;
+}
+
+.project-links a:hover {
+    color: #60A5FA; /* Hover color */
+}
+
+.section {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2a2a3b;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.card .content {
+    flex: 1;
+    color: white;
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card .content h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.card .content p {
+    margin: 0 0 20px;
+}
+
+.card .content .buttons {
+    display: flex;
+    align-items: center;
+}
+
+.card .content .buttons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.card .content .buttons a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.card .images {
+    display: flex;
+    justify-content: center;
+}
+
+.card .images img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+@media (min-width: 640px) {
+    body {
+        font-size: 16px;
+    }
+
+    .glass-effect {
+        height: 100px;
+        width: 100px;
+        padding: 20px;
+    }
+
+    .glass-effect img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .project-card {
+        padding: 20px;
+        max-width: 600px;
+    }
+
+    .section {
+        max-width: 800px;
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .project-links {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row;
+        padding: 30px;
+    }
+
+    .card .content {
+        margin-left: 20px;
+        margin-top: 0;
+        text-align: left;
+    }
+}
