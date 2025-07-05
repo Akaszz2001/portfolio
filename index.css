@@ -1,12 +1,14 @@
 body {
-    background-color: #111827; /* Dark color theme */
-    color: #E5E7EB; /* Light text color */
+    background-color: #F4F0DB; /* Dark color theme */
+    color: #000000; /* Light text color */
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
-
+.bg-custom{
+     background-color:#F4F0DB
+}
 .glass-effect {
-    background-color: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
+    background-color: rgb(255, 255, 255); /* Semi-transparent white */
     backdrop-filter: blur(10px); /* Blur effect */
     border-radius: 10px;
     transition: transform 0.2s ease;
@@ -51,7 +53,7 @@ body {
 }
 
 .project-card {
-    background-color: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
+    background-color: rgb(255, 255, 255); /* Semi-transparent white */
     backdrop-filter: blur(10px); /* Blur effect */
     border-radius: 10px;
     transition: transform 0.2s ease;
